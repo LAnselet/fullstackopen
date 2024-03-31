@@ -1,0 +1,11 @@
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im1sdXVra2FpIiwiaWQiOiI2NjA5ZTc1NTRkMDNiZjcyNjAzODYwZGIiLCJpYXQiOjE3MTE5MjYyNjIsImV4cCI6MTcxMTkyOTg2Mn0.PwihTFETaIm7OEy9FaWwQ6vbUbzEcK_ZsMhg8yYFzWA
+
+{
+  "title": "mluukkai's blog",
+  "author": "mluukkai",
+  "url": "mluukkai.com",
+  "likes": 1,
+  "userId": "6609e7554d03bf72603860db"
+}
